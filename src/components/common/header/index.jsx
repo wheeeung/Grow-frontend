@@ -22,7 +22,7 @@ const Header = () => {
 
 const headerStyle = {
   backgroundColor: "#576CBC",
-  width: "100vw",
+  height: "80px"
 };
 
 const containerStyle = {
@@ -34,7 +34,7 @@ const containerStyle = {
 const pStyle = {
   fontSize: "20px",
   fontWeight: "bold",
-  padding: "0 120px",
+  padding: "25px 130px",
 };
 
 const logoStyle = {
@@ -66,9 +66,11 @@ const buttonStyle = {
 };
 
 const bodyImage = {
-  width: "400px",
-  height: "400px",
-  justifycontent: "center",
+  width: "300px",
+  height: "300px",
+  position: "absolute",
+  top: "150px",
+  right: "640px",
 };
 
 export default Header;
