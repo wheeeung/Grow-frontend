@@ -12,10 +12,11 @@ const Header = () => {
             <p style={pStyle}>Grow</p>
           </div>
           <img src={search} style={rightImage} />
-          <button style={buttonStyle}>로그인</button>
+          <button style={loginStyle}>로그인</button>
         </div>
       </header>
       <img src={logo} style={bodyImage} />
+      <button style={buttonStyle}>로그인하고 오정수키우기</button>
     </div>
   );
 };
@@ -56,7 +57,7 @@ const rightImage = {
   padding: "0 150px",
 };
 
-const buttonStyle = {
+const loginStyle = {
   padding: "5px 15px",
   borderRadius: "7px",
   border: "none",
@@ -72,5 +73,17 @@ const bodyImage = {
   top: "150px",
   right: "640px",
 };
+
+const buttonStyle = {
+  borderRadius: "7px",
+  color: "#6255F6",
+  borderColor: "#6255F6",
+  background: "#FFFFF",
+  padding: "7px 80px",
+
+  position: "absolute",
+  top: "500px",
+  right: "630px",
+}
 
 export default Header;
