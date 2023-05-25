@@ -1,4 +1,3 @@
-import "./header.css";
 import { logo } from "../../../assets";
 import { search } from "../../../assets";
 
