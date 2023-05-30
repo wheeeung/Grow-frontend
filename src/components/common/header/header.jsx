@@ -61,6 +61,7 @@ const loginStyle = {
   position: "absolute",
   top: "25px",
   right: "50px",
+  cursor: "pointer",
 };
 
 export default Header;

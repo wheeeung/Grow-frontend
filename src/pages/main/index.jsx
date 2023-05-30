@@ -27,6 +27,7 @@ const buttonStyle = {
   borderColor: "#6255F6",
   backgroundColor: "#FFFFFF",
   padding: "7px 80px",
+  cursor: "pointer",
 
   position: "absolute",
   top: "500px",
