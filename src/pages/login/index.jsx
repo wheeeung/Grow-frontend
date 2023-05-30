@@ -1,8 +1,15 @@
 import Header from "../../components/common/header/loginHeader.jsx";
 import { logo } from "../../assets";
-import "../login/index.css"
+import "../login/index.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
+ 
+  const navigateToSignup = () => {
+    navigate("/signup");
+  };
+
   return (
     <div>
       <Header />
@@ -14,7 +21,7 @@ const Login = () => {
           <input type="email" style={loginInput} placeholder="이메일을 입력해주세요" autoFocus />
           <input type="password" style={passInput} placeholder="비밀번호을 입력해주세요" />
           <button style={button}>로그인</button>
-          <p style={pStyle}>회원가입</p>
+          <p style={pStyle} onClick={navigateToSignup}>회원가입</p>
         </form>
       </div>
     </div>  

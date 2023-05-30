@@ -1,17 +1,30 @@
 import { logo } from "../../../assets";
 import { search } from "../../../assets";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+ 
+  const navigateToLogin = () => {
+    navigate("/login");
+  };
+
+  const navigateToMain = () => {
+    navigate("/");
+  }
+
   return (
     <div>
       <header style={headerStyle}>
         <div style={containerStyle}>
           <div style={logoStyle}>
-            <img src={logo} style={image} />
-            <p style={pStyle}>Grow</p>
+            <img src={logo} style={image} onClick={navigateToMain}/>
+            <p style={pStyle} onClick={navigateToMain}>Grow</p>
           </div>
           <img src={search} style={rightImage} />
-          <button style={loginStyle}>로그인</button>
+          <button style={loginStyle} onClick={navigateToLogin}>
+            로그인
+          </button>
         </div>
       </header>
     </div>
@@ -33,10 +46,12 @@ const pStyle = {
   fontSize: "20px",
   fontWeight: "bold",
   padding: "25px 130px",
+  cursor: "pointer",
 };
 
 const logoStyle = {
   display: "flex",
+  cursor: "pointer",
 };
 
 const image = {

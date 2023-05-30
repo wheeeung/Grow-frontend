@@ -1,12 +1,21 @@
 import Header from "../../components/common/header/header.jsx";
 import { logo } from "../../assets";
+import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
+ 
+  const navigateToLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <div>
       <Header />
       <img src={logo} style={bodyImage} />
-      <button style={buttonStyle}>로그인하고 오정수키우기</button>
+      <button style={buttonStyle} onClick={navigateToLogin}>
+        로그인하고 오정수키우기
+      </button>
     </div>
       
   );
