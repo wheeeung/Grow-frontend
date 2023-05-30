@@ -1,13 +1,10 @@
 import { logo } from "../../../assets";
 import { search } from "../../../assets";
+import { user } from "../../../assets";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
- 
-  const navigateToLogin = () => {
-    navigate("/login");
-  };
 
   const navigateToMain = () => {
     navigate("/");
@@ -22,9 +19,7 @@ const Header = () => {
             <p style={pStyle} onClick={navigateToMain}>Grow</p>
           </div>
           <img src={search} style={rightImage} />
-          <button style={loginStyle} onClick={navigateToLogin}>
-            로그인
-          </button>
+          <img src={user} style={userImage}/>
         </div>
       </header>
     </div>
@@ -70,14 +65,12 @@ const rightImage = {
   cursor: "pointer",
 };
 
-const loginStyle = {
-  padding: "5px 15px",
-  borderRadius: "7px",
-  border: "none",
+const userImage = {
+  width: "27px",
+  height: "27px",
   position: "absolute",
-  top: "25px",
-  right: "50px",
+  right: "60px",
   cursor: "pointer",
-};
+}
 
 export default Header;
