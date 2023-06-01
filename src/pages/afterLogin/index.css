@@ -1,0 +1,5 @@
+.pBox {
+  white-space: no-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

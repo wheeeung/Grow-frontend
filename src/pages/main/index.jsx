@@ -14,7 +14,7 @@ const Main = () => {
       <Header />
       <img src={logo} style={bodyImage} />
       <button style={buttonStyle} onClick={navigateToLogin}>
-        로그인하고 오정수키우기
+        로그인하고 시작하기
       </button>
     </div>
       
