@@ -2,9 +2,32 @@ import Header from "../../components/common/header/loginHeader.jsx";
 import { logo } from "../../assets";
 import "../login/index.css";
 import { useNavigate } from "react-router-dom";
+import React, { useState } from 'react';
 
 const Login = () => {
   const navigate = useNavigate();
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    if(!email || !password) {
+      alert('이메일, 비밀번호를 입력해주세요!!!');
+      return;
+    }
+
+
+    navigate("/main");
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
  
   const navigateToSignup = () => {
     navigate("/signup");
@@ -17,10 +40,25 @@ const Login = () => {
         <div style={box1} />
         <p style={loginSytle}>로그인</p>
         <img src={logo} style={logoStyle} />
-        <form>
-          <input type="email" style={loginInput} placeholder="이메일을 입력해주세요" autoFocus />
-          <input type="password" style={passInput} placeholder="비밀번호을 입력해주세요" />
-          <button style={button}>로그인</button>
+        <form onSubmit={handleLogin}>
+          <input 
+            type="email" 
+            id="email"
+            name="email"
+            value={email}
+            style={loginInput} 
+            onChange={handleEmailChange}
+            placeholder="이메일을 입력해주세요" 
+            autoFocus />
+          <input 
+            type="password" 
+            id="password"
+            name="password"
+            value={password}
+            onChange={handlePasswordChange}
+            style={passInput} 
+            placeholder="비밀번호을 입력해주세요" />
+          <button style={button} type="submit">로그인</button>
           <p style={pStyle} onClick={navigateToSignup}>회원가입</p>
         </form>
       </div>
