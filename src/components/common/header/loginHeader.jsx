@@ -33,9 +33,11 @@ const containerStyle = {
 
 const pStyle = {
   fontSize: "20px",
-  fontWeight: "bold",
   padding: "25px 760px",
   cursor: "pointer",
+
+  fontFamily: "'Inter'",
+  fontStyle: "normal",
 };
 
 const image = {

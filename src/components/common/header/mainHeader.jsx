@@ -10,6 +10,10 @@ const Header = () => {
     navigate("/main");
   }
 
+  const navigateToMypage = () => {
+    navigate("/mypage");
+  }
+
   return (
     <div>
       <header style={headerStyle}>
@@ -19,7 +23,7 @@ const Header = () => {
             <p style={pStyle} onClick={navigateToMain}>Grow</p>
           </div>
           <img src={search} style={rightImage} />
-          <img src={user} style={userImage}/>
+          <img src={user} style={userImage} onClick={navigateToMypage}/>
         </div>
       </header>
     </div>
@@ -39,9 +43,11 @@ const containerStyle = {
 
 const pStyle = {
   fontSize: "20px",
-  fontWeight: "bold",
   padding: "25px 130px",
   cursor: "pointer",
+
+  fontFamily: "'Inter'",
+  fontStyle: "normal",
 };
 
 const logoStyle = {

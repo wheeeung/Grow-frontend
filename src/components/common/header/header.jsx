@@ -44,9 +44,11 @@ const containerStyle = {
 
 const pStyle = {
   fontSize: "20px",
-  fontWeight: "bold",
   padding: "25px 130px",
   cursor: "pointer",
+
+  fontFamily: "'Inter'",
+  fontStyle: "normal",
 };
 
 const logoStyle = {
