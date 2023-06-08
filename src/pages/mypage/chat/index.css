@@ -1,0 +1,99 @@
+.profileImg {
+  width: 90px;
+  position: absolute;
+  top: 160px;
+  right: 1280px;
+}
+
+.box1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 470px;
+  top: 200px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.box2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 820px;
+  top: 200px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.box3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 1170px;
+  top: 200px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.box4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 470px;
+  top: 500px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.box5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 820px;
+  top: 500px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.box6 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 1170px;
+  top: 500px;
+  cursor: pointer;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
