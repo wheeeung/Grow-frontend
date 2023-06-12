@@ -114,7 +114,7 @@ const name = {
 const profileName = {
   fontSize: "18px",
   position: "absolute",
-  left: "170px",
+  left: "188px",
   top: "280px",
 }
 

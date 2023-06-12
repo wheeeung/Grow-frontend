@@ -5,6 +5,7 @@ import Signup from "./pages/signup/index.jsx";
 import AfterLoginMain from "./pages/afterLogin/index.jsx";
 import Mypage from "./pages/mypage/index.jsx";
 import MypageChat from "./pages/mypage/chat/index.jsx";
+import Store from "./pages/store/index.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/main" element={<AfterLoginMain/>} />
         <Route path="/mypage" element={<Mypage/>} />
         <Route path="/mypage/chat" element={<MypageChat/>} />
+        <Route path="/store" element={<Store/>} />
       </Routes>
     </BrowserRouter>
   );
