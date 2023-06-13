@@ -1,0 +1,18 @@
+.box {
+  width: 1050px;
+  height: 510px;
+
+  position: absolute;
+  left: 240px;
+  top: 155px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.img1 {
+  width: 190px;
+  position: absolute;
+  top: 150px;
+  left: 430px;
+}
