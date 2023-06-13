@@ -25,8 +25,8 @@ const Grow = () => {
       <img src={store} className="storeStyle" onClick={navigateToStore} />
 
       <div className="box">
-        <img src={charactor1} className="img1" />
-      </div>
+        <img src={charactor1} className="imgGrow" />
+      </div>  
     </div>
   );
 };
