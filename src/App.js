@@ -7,6 +7,7 @@ import Mypage from "./pages/mypage/index.jsx";
 import MypageChat from "./pages/mypage/chat/index.jsx";
 import Store from "./pages/store/index.jsx";
 import Grow from "./pages/grow/index.jsx";
+import Inventory from "./pages/inventory/index.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/mypage/chat" element={<MypageChat/>} />
         <Route path="/store" element={<Store/>} />
         <Route path="/grow" element={<Grow/>} />
+        <Route path="/inventory" element={<Inventory/>} />
       </Routes>
     </BrowserRouter>
   );
