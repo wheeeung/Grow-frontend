@@ -8,6 +8,7 @@ import MypageChat from "./pages/mypage/chat/index.jsx";
 import Store from "./pages/store/index.jsx";
 import Grow from "./pages/grow/index.jsx";
 import Inventory from "./pages/inventory/index.jsx";
+import AskList from "./pages/askList/index.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/store" element={<Store/>} />
         <Route path="/grow" element={<Grow/>} />
         <Route path="/inventory" element={<Inventory/>} />
+        <Route path="/ask/list" element={<AskList/>} />
       </Routes>
     </BrowserRouter>
   );

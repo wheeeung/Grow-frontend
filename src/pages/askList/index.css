@@ -1,0 +1,124 @@
+.good {
+  width: 20px;
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}
+
+.bad {
+  width: 20px;
+  position: absolute;
+  top: 52px;
+  right: 160px;
+}
+
+.comment {
+  width: 20px;
+  position: absolute;
+  top: 50px;
+  right: 80px;
+} 
+
+.ask1 {
+  width: 850px;
+  height: 130px;
+  border: 1px solid;
+  box-sizing: borderBox;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 200px;
+  right: 350px;
+  cursor: pointer;
+}
+
+.ask2 {
+  width: 850px;
+  height: 130px;
+  border: 1px solid;
+  box-sizing: borderBox;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 400px;
+  right: 350px;
+  cursor: pointer;
+}
+
+.ask3 {
+  width: 850px;
+  height: 130px;
+  border: 1px solid;
+  box-sizing: borderBox;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 600px;
+  right: 350px;
+  cursor: pointer;
+}
+
+.pBox {
+  font-size: 15px;
+  width: 300px;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  position: absolute;
+  top: 23px;
+  left: 30px;
+}
+
+.name {
+  font-size: 15px;
+  position: absolute;
+  right: 400px;
+  top: 11px;
+}
+
+.content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.57);
+
+  position: absolute;
+  top: 60px;
+  left: 43px;
+}
+
+.num1 {
+  position: absolute;
+  top: 49px;
+  right: 220px;
+}
+
+.num2 {
+  position: absolute;
+  top: 49px;
+  right: 140px;
+}
+
+.num3 {
+  position: absolute;
+  top: 49px;
+  right: 60px;
+}
+
+.plus {
+  width: 60px;
+  position: absolute;
+  top: 500px;
+  right: 90px;
+  cursor: pointer;
+}
