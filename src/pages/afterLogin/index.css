@@ -24,6 +24,7 @@
   position: absolute;
   top: 160px;
   right: 50px;
+  cursor: pointer;
 }
 
 .chImg {

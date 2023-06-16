@@ -6,8 +6,20 @@ import { comment } from "../../assets";
 import { background_main } from "../../assets";
 import { charactor1 } from "../../assets";
 import "../afterLogin/index.css";
+import { useNavigate } from "react-router-dom";
 
 const AfterLoginMain = () => {
+
+  const navigate = useNavigate();
+
+  const navigateTolist = () => {
+    navigate("/ask/list")
+  }
+
+  const navigateToGrow = () => {
+    navigate("/grow")
+  }
+
   return (
     <div>
       <Header />
@@ -41,11 +53,11 @@ const AfterLoginMain = () => {
           <img src={bad} className="badImg" />
           <img src={comment} className="commentImg" />
         </div>
-        <button style={buttonStyle}>
+        <button style={buttonStyle} onClick={navigateTolist}>
           더 많은 질문 보러가기
         </button>
       </div>
-      <img src={background_main} className="mainImg"/>
+      <img src={background_main} className="mainImg" onClick={navigateToGrow} />
       <img src={charactor1} className="chImg"/>
     </div>
   );

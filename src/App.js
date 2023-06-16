@@ -9,6 +9,7 @@ import Store from "./pages/store/index.jsx";
 import Grow from "./pages/grow/index.jsx";
 import Inventory from "./pages/inventory/index.jsx";
 import AskList from "./pages/askList/index.jsx";
+import Write from "./pages/write/index.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/grow" element={<Grow/>} />
         <Route path="/inventory" element={<Inventory/>} />
         <Route path="/ask/list" element={<AskList/>} />
+        <Route path="/ask/write" element={<Write/>} />
       </Routes>
     </BrowserRouter>
   );
