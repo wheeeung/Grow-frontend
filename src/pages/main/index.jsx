@@ -40,7 +40,7 @@ const buttonStyle = {
 
   position: "absolute",
   top: "500px",
-  right: "630px",
+  right: "640px",
 }
 
 export default Main;
