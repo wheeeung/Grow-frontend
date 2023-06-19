@@ -1,0 +1,193 @@
+.postGood {
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  right: 250px;
+}
+
+.postBad {
+  width: 20px;
+  position: absolute;
+  top: 32px;
+  right: 160px;
+}
+
+.postComment {
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+} 
+
+.post {
+  width: 850px;
+  height: 130px;
+
+  position: absolute;
+  top: 150px;
+  right: 350px;
+}
+
+.postBox {
+  font-size: 18px;
+  width: 300px;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  position: absolute;
+  top: 23px;
+  left: 30px;
+}
+
+.postNum1 {
+  position: absolute;
+  top: 29px;
+  right: 220px;
+}
+
+.postNum2 {
+  position: absolute;
+  top: 29px;
+  right: 140px;
+}
+
+.postNum3 {
+  position: absolute;
+  top: 29px;
+  right: 60px;
+}
+
+.writer {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.57);
+
+  position: absolute;
+  top: 80px;
+  left: 93px;
+}
+
+.postImg {
+  width: 25px;
+
+  position: absolute;
+  top: 80px;
+  left: 43px;
+}
+
+.postContent {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+}
+
+.pComment {
+  position: absolute;
+  top: 400px;
+  left: 379px;
+}
+
+.imgComment {
+  position: absolute;
+  top: 400px;
+  left: 430px;
+}
+
+.inputComment {
+  width: 48%;
+  border-bottom: 1px solid;
+  padding: 10px;
+
+  position: absolute;
+  top: 440px;
+  left: 380px;
+}
+
+.upload {
+  width: 25px;
+
+  position: absolute;
+  top: 445px;
+  right: 430px;
+
+  cursor: pointer;
+}
+
+.commentWriter1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.57);
+
+  position: absolute;
+  top: 530px;
+  left: 430px;
+}
+
+.commentWriter2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.57);
+
+  position: absolute;
+  top: 730px;
+  left: 430px;
+}
+
+.commentImg1 {
+  width: 25px;
+
+  position: absolute;
+  top: 530px;
+  left: 380px;
+}
+
+.commentImg2 {
+  width: 25px;
+
+  position: absolute;
+  top: 730px;
+  left: 380px;
+}
+
+.comment1 {
+  width: 750px;
+  height: 130px;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 570px;
+  left: 370px;
+
+  padding: 30px;
+}
+
+.comment2 {
+  width: 750px;
+  height: 130px;
+
+  background: #FFFFFF;
+  border: 0.5px solid #D9D9D9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 770px;
+  left: 370px;
+
+  padding: 30px;
+}

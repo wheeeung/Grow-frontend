@@ -19,7 +19,6 @@ const AskList = () => {
     navigate("/ask/post");
   }
 
-
   return (
     <div>
       <Header />
