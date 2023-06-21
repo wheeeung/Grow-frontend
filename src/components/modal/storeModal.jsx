@@ -57,7 +57,7 @@ const Contents = styled.div`
 `;
 const Button = styled.button`
   position: absolute;
-  top: 45px;
+  top: 60px;
   right: 150px;
   font-size: 14px;
   padding: 10px 20px;
@@ -74,7 +74,7 @@ const Button = styled.button`
 `;
 const CancelButton = styled.button`
   position: absolute;
-  top: 45px;
+  top: 60px;
   right: 50px;
   font-size: 14px;
   padding: 10px 20px;

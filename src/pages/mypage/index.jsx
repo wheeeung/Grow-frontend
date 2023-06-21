@@ -19,7 +19,7 @@ const Mypage = () => {
       <Header />
       <div>
         <p style={question}>내 질문</p>
-        <p style={chatting} onClick={navigateToChat}>채팅</p>
+        { <p style={chatting} onClick={navigateToChat}>채팅</p> }
         <div style={box1}>
           <div style={pBox}>
             디자인 알려주세요 제발료 진짜 모르겠어요 도와주세요
